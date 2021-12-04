@@ -1,0 +1,24 @@
+{
+  "name": "@api.video/react-native-livestream-example",
+  "description": "Example app for @api.video/react-native-livestream",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@api.video/react-native-livestream": "0.1.0",
+    "expo-keep-awake": "^10.0.0",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-no-sleep": "0.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "metro-react-native-babel-preset": "^0.64.0"
+  }
+}
