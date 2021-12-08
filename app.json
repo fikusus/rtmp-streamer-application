@@ -1,4 +1,35 @@
 {
-  "name": "ReactNativeLivestreamExample",
-  "displayName": "ReactNativeLivestream Example"
+  "expo": {
+    "name": "VideoRoom",
+    "slug": "VideoRoom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ulab.videoroom"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ulab.videoroom",
+      "permissions": ["INTERNET", "RECORD_AUDIO", "CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
 }
